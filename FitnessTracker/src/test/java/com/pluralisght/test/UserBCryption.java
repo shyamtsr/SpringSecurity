@@ -8,7 +8,7 @@ public class UserBCryption extends TestCase{
 	
 public void testMd5Encoder() {
 		
-		String upassword="shyam";
+		String upassword="shyams";
 		String apassword="manager";
 		String buser="sundar";
 		BCryptPasswordEncoder passwordEncode=new BCryptPasswordEncoder();
